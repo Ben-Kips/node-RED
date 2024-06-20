@@ -1,0 +1,17 @@
+{
+  "name": "transmit",
+  "version": "1.0.0",
+  "description": "Transmit data recieved on output port",
+  "main": "transmit.js",
+  "node-red":{
+    "nodes":{
+        "transmit":"transmit.js"
+    }
+  },
+  "scripts":{
+    "test": "echo \"Error: no test specified\" && exit 1"
+
+  },
+  "author": "Ben Bii",
+  "license":"ISC"
+  }

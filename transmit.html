@@ -1,0 +1,15 @@
+<script type=" text /javascript">
+    RED.nodes.registerType('transmit ', {
+        category:'function',
+        color:'#E9967A',
+        defaults:{
+            name: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon:"serial.svg",
+        label:function(){
+            return this.name||"transmit";
+        }
+    });
+</script>
